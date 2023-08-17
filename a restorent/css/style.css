@@ -1,0 +1,493 @@
+body{
+    margin: 0;
+    font-family:poppins ;
+    font-family: Archivo SemiBold Regular;
+    
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: popins;
+    src: url(../font/poppins-regular-webfont.woff2);
+}
+
+@font-face {
+    font-family: Archivo SemiBold Regular;
+    src: url(../font/archivo-variablefont_wdthwght-webfont.woff2);
+}
+@font-face {
+    font-family:Nunito Sans Regular ;
+    src: url(../font/nunitosans-regular-webfont.woff2);
+}
+.background-img {
+    width: 100%;
+    float: left;
+}
+.background-img img {
+    width: 100%;
+    float: left;
+    height: 794px;
+}
+.logo img {
+    height: 85px;
+    margin-top: -35px;
+}
+.container {
+    max-width: 1245px;
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: auto;
+}
+.header {
+    width: 100%;
+    float: left;
+}
+.left {
+    float: left;
+    width: auto;
+}
+header {
+    width: 100%;
+    float: left;
+    position: absolute;
+    top: 60px;
+}
+.right {
+    width: auto;
+    float: right;
+}
+.right li {
+    display: inline;
+}
+.right a {
+    text-decoration: none;
+    padding: 0 35px;
+    font-size: 25px;
+    color: white;
+    font-weight: 500;
+}
+.right a:hover{
+    color: red;
+}
+
+.box {
+    width: 100%;
+    float: left;
+}
+.banner img {
+    width: 100%;
+    float: left;
+    height: 796px;
+}
+.img img {
+    width: 100%;
+    float: left;
+}
+.banner-text {
+    width: 42%;
+    float: left;
+    position: absolute;
+    top: 232px;
+    color: white;
+}
+.banner-text h1 {
+    font-size: 91px;
+}
+.banner-text p {
+    font-size: 32px;
+    line-height: 40px;
+    margin-top: 50px;
+    font-family: 'Nunito Sans Regular';
+}
+.banner-text button {
+    width: 324px;
+    height: 65px;
+    border-radius: 41px;
+    background-color: red;
+    color: white;
+    margin-top: 50px;
+    font-size: 25px;
+    font-family: 'Nunito Sans Regular';
+    font-weight: 700;
+}
+
+.banner-text button:hover{
+    background-color: gray;
+}
+    
+ 
+
+.back-img img {
+    width: 100%;
+    float: left;
+}
+section#three {
+    width: 100%;
+    float: left;
+    position: relative;
+}
+.boxe {
+    width: 100%;
+    float: left;
+    position: absolute;
+    top: 85px;
+    right: 0;
+}
+.heading h3 {
+    font-size: 63px;
+}
+.back-img {
+    width: 100%;
+    float: left;
+}
+.heading {
+    width: 47%;
+    text-align: center;
+    margin: auto;
+}
+.heading h3 {
+    font-size: 63px;
+    margin-top: 90px;
+}
+.heading p {
+    margin-top: 55px;
+}
+.heading h3 {
+    font-size: 63px;
+    margin-top: 90px;
+    font-family: 'Archivo SemiBold Regular';
+    color: red;
+}
+.heading p {
+    margin-top: 55px;
+    font-size: 25px;
+    color: red;
+}
+.main-box {
+    width: 100%;
+    float: left;
+    margin-top: 77px;
+}
+.box1 {
+    width: 33%;
+    float: left;
+    text-align: center;
+}
+.img1 img {
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+}
+
+.detail {
+    width: 100%;
+    float: left;
+    line-height: 56px;
+    color: red;
+}
+.detail h3 {
+    font-size: 33px;
+}
+
+.detail h3:hover{
+    color: white;
+}
+.detail span {
+    font-size: 25px;
+    font-family: 'Nunito Sans Regular';
+}
+.four {
+    
+    width: 100%;
+    float: left;
+    height: 796px;
+    background-color: red;
+}
+.lEFT {
+    width: 50%;
+    float: left;
+}
+.Right {
+    width: 50%;
+    float: right;
+    margin-top: 76px;
+}
+.lEFT img {
+    width: 480px;
+    height: 480px;
+    border-radius: 50%;
+}
+.Right-text h1 {
+    font-size: 75px;
+    color: white;
+}
+.Right-text p {
+    font-size: 29px;
+    color: white;
+    font-family: 'Nunito Sans Regular';
+    margin-top: 50px;
+}
+.Right-text button {
+    width: 322px;
+    height: 64px;
+    border-radius: 42px;
+    border: none;
+    margin-top: 50px;
+    font-size: 19px;
+    font-weight: 700;
+    color: red;
+}
+.Right-text button:hover{
+    background-color: red;
+}
+.Main-boxs {
+    width: 100%;
+    float: left;
+    margin-top: 168px;
+}
+.four {
+    width: 100%;
+    float: left;
+}
+.five {
+    width: 100%;
+    float: left;
+}
+.heading5 {
+    width: 100%;
+    text-align: center;
+    
+}
+.background-images img {
+    width: 100%;
+    float: left;
+}
+section#five {
+    position: relative;
+    width: 100%;
+    float: left;
+}
+.five{
+    background-image: url(../image/Untitled-1.jpg);
+}
+.five {
+    background-image: url(../image/Untitled-1.jpg);
+    width: 100%;
+    float: left;
+    height: 829px;
+}
+.Mains {
+    width: 100%;
+    float: left;
+}
+.heading5 {
+    width: 100%;
+    float: left;
+}
+.heading5 h1 {
+    font-size: 75px;
+    color: red;
+    margin-top: 98px;
+}
+.Boxes {
+    width: 100%;
+    float: left;
+}
+.BOx1 {
+    width: 27%;
+    float: left;
+    border: 1px solid;
+    text-align: center;
+    height: 444px;
+    background-color: white;
+    border: none;
+    height: 485px;
+    margin: 37px;
+    margin-top: 149px;
+    border-radius: 43px;
+}
+.head-text {
+    font-size: 33px;
+    color: red;
+}
+.price-detail h3 {
+    font-size: 33px;
+    margin-top: 34px;
+}
+.price-detail {
+    color: red;
+}
+.price-detail p {
+    font-size: 20px;
+    margin: auto;
+    margin-top: 27px;
+}
+.price-detail button {
+    width: 288px;
+    height: 55px;
+    font-size: 17px;
+    font-weight: 700;
+    border-radius: 44px;
+    border: navajowhite;
+    background-color: red;
+    margin-top: 28px;
+    color: white;
+    
+}
+.price-detail button:hover{
+    background-color: gray;
+    color: black;
+}
+.imges {
+    margin-top: 35px;
+}
+.all {
+    margin-top: 40px;
+}
+
+.six {
+    background-image: url(../image/Untitled-2.jpg);
+    width: 100%;
+    height: 800px;
+    float: left;
+    text-align: center;
+}
+.texttx {
+    width: 70%;
+    
+    text-align: center;
+    margin: auto;
+}
+.texttx h1 {
+    font-size: 75px;
+    color: red;
+}
+.texttx p {
+    color: red;
+    font-size: 29px;
+}
+.Meinclass {
+    width: 100%;
+    float: left;
+    margin-top: 235px;
+    position: relative;
+}
+.texttx p {
+    margin-top: 65px;
+    font-family: 'Nunito Sans Regular';
+    font-size: 29px;
+}
+.input {
+    width: 100%;
+    float: left;
+    margin-top: 86px;
+}
+input#fname {
+    width: 549px;
+    height: 65px;
+    border-radius: 50px;
+    font-size: 18px;
+    border: none;
+    padding-left: 28px;
+}
+.footer {
+    border: 1px solid;
+    width: 100%;
+    float: left;
+    height: 765px;
+    background-color: #272626;
+
+}
+.footer-box {
+    width: 100%;
+    float: left;
+    margin-top: 205px;
+}
+.text-lefts {
+    width: 40%;
+    float: left;
+}
+.icons li {
+    display: inline-block;
+    margin: 5px;
+    font-size: 31px;
+    border: 1px solid;
+    padding: 9px;
+    width: 51px;
+    height: 51px;
+    border-radius: 50%;
+    background-color: white;
+    border-radius: 43px;
+}
+.text-lefts h3 {
+    font-size: 31px;
+    font-family: 'Archivo SemiBold Regular';
+    color: white;
+    line-height: 106px;
+
+    
+
+}
+.text-lefts p {
+    font-size: 23px;
+    color: white;
+    font-family: 'Nunito Sans Regular';
+    line-height: 36px;
+
+}
+.right-Text {
+    float: right;
+    
+    margin-top: 6px;
+    width: 51%;
+}
+.boxes1 {
+    float: left;
+    width: 20%;
+    display: inline-block;
+    margin: 28px;
+
+}
+.boxes2 {
+    width: 20%;
+    float: left;
+}
+.boxes1 a {
+    text-decoration: none;
+    font-size: 23px;
+    color: white;
+    font-family: 'Nunito Sans Regular';
+}
+.boxes1 li {
+    display: block;
+    line-height: 36px;
+}
+.footer-text {
+    width: 100%;
+    float: left;
+    margin-top: -84px;
+}
+.text-lefts {
+    width: 40%;
+    float: left;
+}
+.icons a {
+    color: #272626;
+}
+.button6 a {
+    position: absolute;
+    right: 29%;
+    top: 81%;
+    background-color: red;
+    padding: 26px;
+    border-radius: 0px 40px 40px 0px;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    width: 170px;
+}
